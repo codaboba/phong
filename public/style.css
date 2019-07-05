@@ -1,0 +1,62 @@
+body {
+  background-color: #f3f2f7;
+}
+
+.container {
+  background-color: white;
+  min-height: 100vh;
+}
+
+.navbar-nav {
+  display: flex;
+  flex-flow: row;
+}
+
+.card {
+  margin: 30px 30px;
+  padding: 35px 35px;
+}
+
+h1 {
+  margin: 30px;
+}
+
+.img-thumbnail {
+  height: 75px;
+  width: 75px;
+}
+
+.member {
+  display: inline-block;
+}
+
+.members {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.field-wrap {
+  position: relative;
+  padding-top: 20px;
+}
+
+.field-wrap:first-of-type {
+  padding: 0px;
+}
+
+.btn {
+  margin-left: 25px;
+}
+
+.btn:first-of-type {
+  margin-left: 0px;
+}
+
+.warning {
+  position: absolute;
+  right: 0;
+  color: red;
+}
+
+.btn-logout {
+}
